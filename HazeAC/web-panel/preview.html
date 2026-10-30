@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HazeAC Admin Panel - FiveM NUI</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #1a1a2e;
+            color: #e0e0e0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #4ade80;
+        }
+        .info {
+            background: #16213e;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .steps {
+            background: #1e1e2e;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .steps code {
+            background: #0f0f23;
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #c4b5fd;
+        }
+        .note {
+            background: #374151;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #f59e0b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HazeAC Admin Panel - FiveM NUI</h1>
+        <div class="info">
+            <p><strong>This is the HazeAC Admin Panel for FiveM.</strong></p>
+            <p>The panel uses FiveM's NUI (Native UI) system and runs in-game.</p>
+        </div>
+
+        <div class="note">
+            <p><strong>Note:</strong> This HTML file is just a placeholder showing build instructions. The actual admin panel is built with React and runs in-game via FiveM's NUI system.</p>
+        </div>
+
+        <div class="steps">
+            <h2>Build Instructions / Istruzioni Build</h2>
+            <p>1. Install dependencies: <code>cd web-panel && npm install</code></p>
+            <p>2. Build for production: <code>npm run build</code></p>
+            <p>3. The built files will be in the <code>nui</code> folder</p>
+            <p>4. The panel will be accessible in-game via the admin command</p>
+        </div>
+
+        <div class="steps">
+            <h2>In-Game Usage / Uso In-Game</h2>
+            <p>To open the panel in-game, use the command:</p>
+            <p><code>/hazeac_panel</code></p>
+            <p>Requires ACE permission: <code>haze_ac.admin</code></p>
+        </div>
+    </div>
+</body>
+</html>
